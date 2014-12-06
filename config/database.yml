@@ -17,6 +17,8 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  username: jacques
+  password: 51julie2
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
@@ -29,7 +31,7 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: anglais
+  #username: italien
 
   # The password associated with the postgres role (username).
   #password:
@@ -41,7 +43,7 @@ development:
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-  #port: 5432
+  port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -55,7 +57,7 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
+test: &test
   <<: *default
   database: anglais_test
 
@@ -83,3 +85,6 @@ production:
   database: anglais_production
   username: anglais
   password: <%= ENV['ANGLAIS_DATABASE_PASSWORD'] %>
+
+cucumber:
+  <<: *test

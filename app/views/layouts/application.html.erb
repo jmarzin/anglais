@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Anglais</title>
+  <meta charset="utf-8">
+  <title>anglais</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render 'layouts/header' %>
+  <div class="container">
+    <section id="sidebar-left">
+      <%= render 'layouts/gauche' %>
+    </section>
+    <section id="content">
+      <%= yield %>
+    </section>
+    <section id="sidebar-right">
+      <%= render 'layouts/droite' %>
+    </section>
+  </div>
 </body>
 </html>

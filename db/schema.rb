@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140622134129) do
+ActiveRecord::Schema.define(version: 20141206190511) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 20140622134129) do
 
   create_table "formes", force: true do |t|
     t.integer  "rang_forme"
-    t.string   "italien"
+    t.string   "anglais"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "verbe_id"
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 20140622134129) do
   create_table "mots", force: true do |t|
     t.string   "mot_directeur"
     t.string   "francais"
-    t.string   "italien"
+    t.string   "anglais"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "category_id"
@@ -133,7 +133,7 @@ ActiveRecord::Schema.define(version: 20140622134129) do
   end
 
   create_table "traductions", force: true do |t|
-    t.string   "italien"
+    t.string   "anglais"
     t.string   "francais"
     t.datetime "created_at"
     t.datetime "updated_at"

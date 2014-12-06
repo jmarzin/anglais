@@ -24,7 +24,7 @@ class Forme < ActiveRecord::Base
   def self.api_v1
     liste = []
     Forme.order(:verbe_id, :rang_forme).each do |forme|
-      liste << [forme.verbe_id, forme.rang_forme + 1, forme.italien]
+      liste << [forme.verbe_id, forme.rang_forme + 1, forme.anglais]
     end
     liste
   end

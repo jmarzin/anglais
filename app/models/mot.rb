@@ -9,11 +9,11 @@ class Mot < ActiveRecord::Base
   validates :mot_directeur, presence: {message: 'Le mot directeur est obligatoire'}
   validates :francais, presence: {message: 'Le mot ou expression en français est obligatoire'}
   validates :francais, uniqueness: { scope: :category_id, message: 'Le mot existe déjà' }
-  validates :italien, presence: {message: 'La traduction italienne est obligatoire'}
+  validates :anglais, presence: {message: 'La traduction anglaise est obligatoire'}
 
   def self.recherche(recherche)
     if recherche
-      Mot.where('mot_directeur || francais || italien like ?','%'+recherche+'%')
+      Mot.where('mot_directeur || francais || anglais like ?','%'+recherche+'%')
     else
       Mot.all
     end
@@ -22,7 +22,7 @@ class Mot < ActiveRecord::Base
   def update(mot_params)
     self.mot_directeur = mot_params['mot_directeur']
     self.francais = mot_params['francais']
-    self.italien = mot_params['italien']
+    self.anglais = mot_params['anglais']
     self.niveau = mot_params['niveau']
     unless mot_params['category_id'] == self.category_id
       self.category_id = mot_params['category_id']
@@ -48,7 +48,7 @@ class Mot < ActiveRecord::Base
     Mot.all.order(:mot_directeur).each do |v|
       IO.write(liste,\
         "["+v.category_id.to_s+",\""+v.mot_directeur.to_str+"\",\""+v.francais+"\","+\
-        v.scores_mots.where(user_id: user_id).first.compteur.to_s+",\""+v.italien+"\"],\n",liste.size)
+        v.scores_mots.where(user_id: user_id).first.compteur.to_s+",\""+v.anglais+"\"],\n",liste.size)
     end
     IO.write(liste,"]\n",liste.size-2)
     true
@@ -57,7 +57,7 @@ class Mot < ActiveRecord::Base
   def self.api_v1
     liste = []
     Mot.order(:category_id, :mot_directeur, :francais).each do |mot|
-      liste << [mot.category.numero, mot.francais, mot.mot_directeur, mot.italien]
+      liste << [mot.category.numero, mot.francais, mot.mot_directeur, mot.anglais]
     end
     liste
   end

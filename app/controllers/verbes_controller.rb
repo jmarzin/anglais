@@ -52,7 +52,7 @@ class VerbesController < ApplicationController
         User.all.each do |u|
           unless u.id == current_user.id
             @verbe.formes.each do |forme|
-              unless forme.italien == ''
+              unless forme.anglais == ''
                 forme.scores_formes.each do |score_forme_admin|
                   u.scores_formes.create(forme_id: score_forme_admin.forme_id,\
                     compteur: score_forme_admin.compteur, rang_forme: forme.rang_forme)
@@ -135,6 +135,6 @@ class VerbesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def verbe_params
-      params.require(:verbe).permit(:infinitif, formes_attributes: [:rang_forme, :italien, scores_formes_attributes: [:user_id, :compteur]])
+      params.require(:verbe).permit(:infinitif, formes_attributes: [:rang_forme, :anglais, scores_formes_attributes: [:user_id, :compteur]])
     end
 end

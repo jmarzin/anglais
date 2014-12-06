@@ -115,7 +115,7 @@ class QuestionsController < ApplicationController
     end
     params[:id] = @objet.id
     params[:question] = @objet.question_en_francais
-    params[:attendu] = @objet.italien
+    params[:attendu] = @objet.anglais
   end
 
 end

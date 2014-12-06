@@ -1,9 +1,45 @@
 Rails.application.routes.draw do
+
+  resources :traductions, only: :index
+
+  resources :problemes
+
+  resources :categories
+
+  get 'questions/vocabulaire', as: 'questions_vocabulaire'
+  get 'questions/conjugaison', as: 'questions_conjugaison'
+  get 'questions/revision_conjugaison', as: 'questions_revision_conjugaison'
+  get 'questions/revision_vocabulaire', as: 'questions_revision_vocabulaire'
+  post 'questions/verification'
+  get 'questions', to: 'questions#revision', as: 'questions_revision'
+  get 'sauve', to: 'sauve#lance', as: 'lance_sauve'
+  post 'ecrit', to: 'sauve#ecrit', as: 'sauve_mot_verbe'
+  get 'stats', to: 'stats#affiche', as: 'affiche_stats'
+
+  get 'aide', to: 'aide#show', as:'aide'
+
+  resources :parametres, only: [:edit, :update]
+
+  resources :mots
+
+  resources :verbes
+
+  devise_for :users
+
+  namespace :api do
+    namespace :v1 do
+      resources :date_categories, :categories,
+                :date_mots, :mots,
+                :date_verbes, :verbes,
+                :date_formes, :formes, only: [:index]
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'mots#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

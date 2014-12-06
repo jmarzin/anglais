@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab6b5ac6-e472-4fec-8b37-e29e4019f389" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20141206190511_rename_italien_to_anglais.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__anglais.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__anglais.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/cake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/categorie_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/categories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/categories_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/categories_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/routing/categories_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/categories_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/category_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/clobber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/coffee-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/categories/edit.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/problemes/edit.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/traductions/edit.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/verbes/edit.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/forme_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/formes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/grammar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/categories/index.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/problemes/index.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/traductions/index.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/verbes/index.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/jacques.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/lexer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/mkdirp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/mot_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/mots.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/mots_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/mots_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/routing/mots_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/mots_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/categories/new.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/problemes/new.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/traductions/new.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/verbes/new.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/nodes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/optparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/parametres.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/paremetre_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/perm_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/examples/pow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/probleme_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/problemes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/problemes_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/problemes_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/routing/problemes_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/problemes_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/rel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/repl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/return.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/return_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/rewriter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/scope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/scores_forme_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/scores_formes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/scores_mot_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/scores_mots.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/session_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/sessions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/categories/show.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/problemes/show.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/traductions/show.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/verbes/show.html.haml_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/lib/coffee-script/sourcemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__anglais.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/statistique_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/statistiques.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/routing/stats_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__anglais.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/traduction_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/traductions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/traductions_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/traductions_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/routing/traductions_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/traductions_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/umask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/coffee-script/node_modules/mkdirp/test/umask_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/verbe_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/verbes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/verbes_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/verbes_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/routing/verbes_routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/verbes_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mots/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/mots/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/verbes/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/verbes/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/aide/_non_connecte.html.haml" afterPath="$PROJECT_DIR$/app/views/aide/_non_connecte.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/anglais.iml" afterPath="$PROJECT_DIR$/.idea/anglais.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/forme.rb" afterPath="$PROJECT_DIR$/app/models/forme.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mots/index.html.haml" afterPath="$PROJECT_DIR$/app/views/mots/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/traductions/index.html.haml" afterPath="$PROJECT_DIR$/app/views/traductions/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mots/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/mots/index.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/mot.rb" afterPath="$PROJECT_DIR$/app/models/mot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/mots_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/mots_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/questions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/questions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rails" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/rake" afterPath="$PROJECT_DIR$/bin/rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/secrets.yml" afterPath="$PROJECT_DIR$/config/secrets.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categories/show.html.haml" afterPath="$PROJECT_DIR$/app/views/categories/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mots/show.html.haml" afterPath="$PROJECT_DIR$/app/views/mots/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/verbes/show.html.haml" afterPath="$PROJECT_DIR$/app/views/verbes/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mots/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/mots/show.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/spring" afterPath="$PROJECT_DIR$/bin/spring" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/traduction.rb" afterPath="$PROJECT_DIR$/app/models/traduction.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/traductions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/traductions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/verbe.rb" afterPath="$PROJECT_DIR$/app/models/verbe.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/verbes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/verbes_controller.rb" />
+    </list>
+    <ignored path="anglais.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/anglais@deploy_restart__anglais.coverage" NAME="deploy:restart: anglais Coverage Results" MODIFIED="1403817355147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@Production__anglais.coverage" NAME="Production: anglais Coverage Results" MODIFIED="1403125358090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@db_migrate__anglais.coverage" NAME="db:migrate: anglais Coverage Results" MODIFIED="1417892928820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@Rails_console__anglais.coverage" NAME="Rails console: anglais Coverage Results" MODIFIED="1417640721482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@deploy_cleanup__anglais.coverage" NAME="deploy:cleanup: anglais Coverage Results" MODIFIED="1403642899308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@IRB_console__anglais.coverage" NAME="IRB console: anglais Coverage Results" MODIFIED="1403032983037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@routes__anglais.coverage" NAME="routes: anglais Coverage Results" MODIFIED="1402117755111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@db_create__anglais.coverage" NAME="db:create: anglais Coverage Results" MODIFIED="1417878172904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@deploy__anglais.coverage" NAME="deploy: anglais Coverage Results" MODIFIED="1404242687472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@db_seed__anglais.coverage" NAME="db:seed: anglais Coverage Results" MODIFIED="1402321794167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@Development__anglais.coverage" NAME="Development: anglais Coverage Results" MODIFIED="1417891043942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@stats_stats__anglais.coverage" NAME="stats:stats: anglais Coverage Results" MODIFIED="1402600100635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+    <SUITE FILE_PATH="coverage/anglais@db_setup__anglais.coverage" NAME="db:setup: anglais Coverage Results" MODIFIED="1402321108457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="anglais" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="anglais" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="20141206190511_rename_italien_to_anglais.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20141206190511_rename_italien_to_anglais.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="234">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verbes_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/verbes_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2628">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verbe.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/verbe.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1746">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forme.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/forme.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="666">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/verbes/new.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/verbes/_form.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6256499" vertical-offset="269" max-vertical-offset="882">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="anglais" target-branch="master" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/themes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/verbes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/date_categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/date_mots_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/date_verbes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/date_formes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/category.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/mots_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/questions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/traductions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/verbes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/mot.rb" />
+        <option value="$PROJECT_DIR$/app/models/traduction.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/verbe.rb" />
+        <option value="$PROJECT_DIR$/app/views/aide/_non_connecte.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/categories/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/mots/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/mots/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/mots/index.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/views/mots/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/mots/show.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/views/problemes/show.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/views/traductions/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/verbes/show.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20141206190511_rename_italien_to_anglais.rb" />
+        <option value="$PROJECT_DIR$/app/models/forme.rb" />
+        <option value="$PROJECT_DIR$/app/views/verbes/_form.html.haml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="14" />
+    <option name="width" value="1321" />
+    <option name="height" value="764" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anglais" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
+      <recent name="$PROJECT_DIR$/app/controllers" />
+      <recent name="$PROJECT_DIR$/app/views/aide" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rake.db:migrate: anglais">
+    <configuration default="false" name="db:create: anglais" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="anglais" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:create" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:migrate: anglais" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="anglais" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CapistranoRunConfigurationType" factoryName="Capistrano">
+      <module name="" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="WORK DIR" VALUE="" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CAPISTRANO_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_TASK_NAME" VALUE="" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_TASK_ARGS" VALUE="" />
+      <CAPISTRANO_RUN_CONFIG_SETTINGS_ID NAME="CAPISTRANO_STAGE" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="IrbRunConfigurationType" factoryName="IRB console">
+      <module name="" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="accents" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/bin/nodejs" path-to-js-file="app/assets/javascripts/accents.js.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="javascript" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" uri="http://localhost:3000">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.accents" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.javascript" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Development: anglais" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: anglais" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec: anglais" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test: anglais" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:create: anglais" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate: anglais" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: anglais" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:create: anglais" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab6b5ac6-e472-4fec-8b37-e29e4019f389" name="Default" comment="" />
+      <created>1402082379745</created>
+      <option name="number" value="Default" />
+      <updated>1402082379745</updated>
+    </task>
+    <task id="LOCAL-00009" summary="samedi">
+      <created>1402176009278</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1402176009278</updated>
+    </task>
+    <task id="LOCAL-00010" summary="samedi">
+      <created>1402178211095</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1402178211095</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dimanche">
+      <created>1402240938472</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1402240938472</updated>
+    </task>
+    <task id="LOCAL-00012" summary="dimanche">
+      <created>1402241079918</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1402241079918</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lundi">
+      <created>1402323370032</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1402323370032</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lundi">
+      <created>1402324497986</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1402324497986</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lundi">
+      <created>1402326380723</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1402326380723</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lundi">
+      <created>1402523182003</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1402523182003</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lundi">
+      <created>1402758128432</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1402758128432</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lundi">
+      <created>1402830982369</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1402830982369</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dimanche">
+      <created>1402831717730</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1402831717730</updated>
+    </task>
+    <task id="LOCAL-00020" summary="dimanche">
+      <created>1402831839505</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1402831839505</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dimanche">
+      <created>1402840305933</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1402840305933</updated>
+    </task>
+    <task id="LOCAL-00022" summary="dimanche">
+      <created>1402845755846</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1402845755846</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dimanche">
+      <created>1402850776939</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1402850776939</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dimanche">
+      <created>1402852035597</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1402852035597</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dimanche">
+      <created>1402852270222</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1402852270222</updated>
+    </task>
+    <task id="LOCAL-00026" summary="dimanche">
+      <created>1402852952201</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1402852952201</updated>
+    </task>
+    <task id="LOCAL-00027" summary="dimanche">
+      <created>1402854772523</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1402854772524</updated>
+    </task>
+    <task id="LOCAL-00028" summary="dimanche">
+      <created>1402857722425</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1402857722425</updated>
+    </task>
+    <task id="LOCAL-00029" summary="dimanche">
+      <created>1402862212247</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1402862212247</updated>
+    </task>
+    <task id="LOCAL-00030" summary="dimanche">
+      <created>1403211360644</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1403211360644</updated>
+    </task>
+    <task id="LOCAL-00031" summary="dimanche">
+      <created>1403641453463</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1403641453463</updated>
+    </task>
+    <task id="LOCAL-00032" summary="dimanche">
+      <created>1403643350595</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1403643350595</updated>
+    </task>
+    <task id="LOCAL-00033" summary="dimanche">
+      <created>1403728486928</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1403728486928</updated>
+    </task>
+    <task id="LOCAL-00034" summary="dimanche">
+      <created>1403810924801</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1403810924801</updated>
+    </task>
+    <task id="LOCAL-00035" summary="dimanche">
+      <created>1403812416600</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1403812416600</updated>
+    </task>
+    <task id="LOCAL-00036" summary="dimanche">
+      <created>1403819851852</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1403819851852</updated>
+    </task>
+    <task id="LOCAL-00037" summary="dimanche">
+      <created>1403979400294</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1403979400294</updated>
+    </task>
+    <task id="LOCAL-00038" summary="dimanche">
+      <created>1403980334140</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1403980334140</updated>
+    </task>
+    <task id="LOCAL-00039" summary="dimanche">
+      <created>1404162099037</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1404162099037</updated>
+    </task>
+    <task id="LOCAL-00040" summary="dimanche">
+      <created>1404162377418</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1404162377418</updated>
+    </task>
+    <task id="LOCAL-00041" summary="dimanche">
+      <created>1404162515296</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1404162515296</updated>
+    </task>
+    <task id="LOCAL-00042" summary="dimanche">
+      <created>1404162648032</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1404162648032</updated>
+    </task>
+    <task id="LOCAL-00043" summary="dimanche">
+      <created>1404162997115</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1404162997115</updated>
+    </task>
+    <task id="LOCAL-00044" summary="dimanche">
+      <created>1404163466137</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1404163466137</updated>
+    </task>
+    <task id="LOCAL-00045" summary="dimanche">
+      <created>1404163569528</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1404163569528</updated>
+    </task>
+    <task id="LOCAL-00046" summary="dimanche">
+      <created>1404241605816</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1404241605816</updated>
+    </task>
+    <task id="LOCAL-00047" summary="dimanche">
+      <created>1404242206756</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1404242206756</updated>
+    </task>
+    <task id="LOCAL-00048" summary="dimanche">
+      <created>1404242670885</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1404242670885</updated>
+    </task>
+    <task id="LOCAL-00049" summary="lundi 1/12/2015">
+      <created>1417463476568</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1417463476568</updated>
+    </task>
+    <task id="LOCAL-00050" summary="lundi 1/12/2015">
+      <created>1417468771620</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1417468771620</updated>
+    </task>
+    <task id="LOCAL-00051" summary="mardi 2/12/2015">
+      <created>1417556409367</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1417556409367</updated>
+    </task>
+    <task id="LOCAL-00052" summary="mercredi 3/12/2015">
+      <created>1417640580090</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1417640580091</updated>
+    </task>
+    <task id="LOCAL-00053" summary="jeudi 4/12/2015">
+      <created>1417725601391</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1417725601391</updated>
+    </task>
+    <task id="LOCAL-00054" summary="jeudi 4/12/2015">
+      <created>1417727345326</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1417727345327</updated>
+    </task>
+    <task id="LOCAL-00055" summary="jeudi 4/12/2015">
+      <created>1417729225887</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1417729225888</updated>
+    </task>
+    <task id="LOCAL-00056" summary="vendredi 5/12/2014">
+      <created>1417810099928</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1417810099929</updated>
+    </task>
+    <task id="LOCAL-00057" summary="vendredi 5/12/2014">
+      <created>1417884423279</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1417884423280</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="14" width="1321" height="764" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32766616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50756973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32612056" sideWeight="0.5003984" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32766616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32766616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39721793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32612056" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39851853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5601594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="samedi" />
+    <MESSAGE value="lundi" />
+    <MESSAGE value="dimanche" />
+    <MESSAGE value="lundi 1/12/2015" />
+    <MESSAGE value="mardi 2/12/2015" />
+    <MESSAGE value="mercredi 3/12/2015" />
+    <MESSAGE value="jeudi 4/12/2015" />
+    <MESSAGE value="vendredi 5/12/2014" />
+    <option name="LAST_COMMIT_MESSAGE" value="vendredi 5/12/2014" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/user.rb</url>
+          <line>81</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/user.rb</url>
+          <line>88</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="96" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/aide/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0113636" vertical-offset="91" max-vertical-offset="396">
+          <caret line="10" column="7" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8181818" vertical-offset="0" max-vertical-offset="234">
+          <caret line="4" column="7" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7386364" vertical-offset="187" max-vertical-offset="540">
+          <caret line="14" column="14" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.95454544" vertical-offset="168" max-vertical-offset="486">
+          <caret line="14" column="7" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="332">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/kaminari/_first_page.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="288">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_droite.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6136364" vertical-offset="0" max-vertical-offset="270">
+          <caret line="3" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_gauche.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6136364" vertical-offset="0" max-vertical-offset="486">
+          <caret line="3" column="11" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.53409094" vertical-offset="61" max-vertical-offset="432">
+          <caret line="6" column="17" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20454545" vertical-offset="0" max-vertical-offset="540">
+          <caret line="1" column="6" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1477273" vertical-offset="295" max-vertical-offset="684">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9431818" vertical-offset="457" max-vertical-offset="990">
+          <caret line="30" column="10" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2272727" vertical-offset="54" max-vertical-offset="612">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/mots/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/parametres/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20454545" vertical-offset="936" max-vertical-offset="1242">
+          <caret line="53" column="4" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20454545" vertical-offset="162" max-vertical-offset="468">
+          <caret line="10" column="15" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="234">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.53409094" vertical-offset="223" max-vertical-offset="612">
+          <caret line="15" column="4" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.95454544" vertical-offset="114" max-vertical-offset="432">
+          <caret line="11" column="0" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/problemes/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="393">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/questions/_commun.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2272727" vertical-offset="0" max-vertical-offset="774">
+          <caret line="6" column="12" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/questions/conjugaison.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0227273" vertical-offset="0" max-vertical-offset="252">
+          <caret line="5" column="16" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/questions/vocabulaire.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4318181" vertical-offset="0" max-vertical-offset="234">
+          <caret line="7" column="10" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sauve/lance.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4318181" vertical-offset="0" max-vertical-offset="288">
+          <caret line="7" column="10" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/traductions/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="360">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8181818" vertical-offset="0" max-vertical-offset="666">
+          <caret line="4" column="5" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1477273" vertical-offset="853" max-vertical-offset="1170">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140602052841_rename_tableau_ids_in_add_tableau_formes_in_parametres.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13740458" vertical-offset="0" max-vertical-offset="393">
+          <caret line="3" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.741936" vertical-offset="1446" max-vertical-offset="3150">
+          <caret line="135" column="19" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140607120705_change_req_type_in_parametres.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140607103343_add_voc_delai_revision_to_parametres.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22167487" vertical-offset="0" max-vertical-offset="406">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140607085105_add_category_to_parametres.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22167487" vertical-offset="0" max-vertical-offset="406">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140607062617_rename_categorie_to_category_in_mots.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22167487" vertical-offset="0" max-vertical-offset="406">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20141206190511_rename_italien_to_anglais.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/verbes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="2628">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/verbe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1746">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/forme.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="666">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/verbes/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6256499" vertical-offset="269" max-vertical-offset="882">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

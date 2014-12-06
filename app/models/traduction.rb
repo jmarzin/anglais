@@ -16,8 +16,8 @@ class Traduction < ActiveRecord::Base
   def self.init
     Traduction.destroy_all
     Mot.all.each do |mot|
-      mot.italien.split('/').each do |element|
-        Traduction.create(italien: element.reduit.strip, francais: mot.francais, category_id: mot.category.numero)
+      mot.anglais.split('/').each do |element|
+        Traduction.create(anglais: element.reduit.strip, francais: mot.francais, category_id: mot.category.numero)
       end
     end
   end

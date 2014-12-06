@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
 
   def init_formes
     User.find_by(admin: true).scores_formes.each do |sco|
-      unless sco.forme.italien == ''
+      unless sco.forme.anglais == ''
         self.scores_formes.create(rang_forme: sco.rang_forme, forme_id: sco.forme_id, compteur: sco.compteur)
       end
     end

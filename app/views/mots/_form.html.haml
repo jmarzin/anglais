@@ -19,8 +19,8 @@
     = f.label :francais
     = f.text_field :francais, autocomplete: :off,:disabled => !(@peut_supprimer)
   .field
-    = f.label :italien
-    = f.text_field :italien, autocomplete: :off,:disabled => !(@peut_supprimer)
+    = f.label :anglais
+    = f.text_field :anglais, autocomplete: :off,:disabled => !(@peut_supprimer)
   -coll = @mot.scores_mots.where(user_id: current_user.id)
   -if coll.empty? then coll=@mot.scores_mots end
   -coll.each do |scores_mot|

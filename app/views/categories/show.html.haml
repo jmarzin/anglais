@@ -9,12 +9,12 @@
 %table#category
   %tr
     %th Français
-    %th Italien
+    %th anglais
 
   -@category.mots.order('mot_directeur').each do |mot|
     %tr
       %td=mot.francais
-      %td=mot.italien
+      %td=mot.anglais
 
 = link_to 'Corr', edit_category_path(@category)
 \|

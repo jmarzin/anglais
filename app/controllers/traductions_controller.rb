@@ -3,6 +3,6 @@ class TraductionsController < ApplicationController
   # GET /traductions.json
   def index
     Traduction.init
-    @traductions = Traduction.all.order(:italien)
+    @traductions = Traduction.all.order(:anglais)
   end
 end

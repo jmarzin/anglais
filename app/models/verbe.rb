@@ -19,7 +19,7 @@ class Verbe < ActiveRecord::Base
 
   def reduit(user_id)
     self.formes.each do |f|
-      if f.italien == ''
+      if f.anglais == ''
         f.scores_formes.each do |sf|
           if sf.user_id == user_id
             sf.compteur = 0
@@ -42,13 +42,13 @@ class Verbe < ActiveRecord::Base
     self.infinitif = vp['infinitif'] if vp['infinitif']
     vp['formes_attributes'].each do |fa|
       fo = self.formes.find_by(rang_forme: fa[1]['rang_forme'].to_i)
-      if fa[1]['italien'] == ''
-        unless fo.italien == ''
+      if fa[1]['anglais'] == ''
+        unless fo.anglais == ''
           fo.scores_formes.destroy(fo.scores_formes.where("user_id <> ?",user_id))
         end
         ajuste_compteur(fo,user_id,0)
       else
-        if fo.italien == '' and @admin
+        if fo.anglais == '' and @admin
           User.all.each do |u|
             unless u.id == user_id
               fo.scores_formes.create(user_id: u.id)
@@ -59,7 +59,7 @@ class Verbe < ActiveRecord::Base
           ajuste_compteur(fo,user_id,fa[1]['scores_formes_attributes'].first[1]['compteur'].to_i)
         end
       end
-      fo.italien = fa[1]['italien'] if fa[1]['italien']
+      fo.anglais = fa[1]['anglais'] if fa[1]['anglais']
       fo.save!
     end
     self.save!
@@ -71,7 +71,7 @@ class Verbe < ActiveRecord::Base
     Verbe.all.order(:infinitif).each do |v|
       texte = "[\""+v.infinitif+"\",\n["
       v.formes.each do |f|
-        texte += "["+f.rang_forme.to_s + ", \"" + f.italien + "\"," + \
+        texte += "["+f.rang_forme.to_s + ", \"" + f.anglais + "\"," + \
           f.scores_formes.find_by(user_id: User.find_by(admin: true).id).compteur.to_s+"],\n"
       end
       IO.write(liste,texte,liste.size)
