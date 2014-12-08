@@ -23,6 +23,7 @@ class Mot < ActiveRecord::Base
     self.mot_directeur = mot_params['mot_directeur']
     self.francais = mot_params['francais']
     self.anglais = mot_params['anglais']
+    self.prononciation = mot_params['prononciation']
     self.niveau = mot_params['niveau']
     unless mot_params['category_id'] == self.category_id
       self.category_id = mot_params['category_id']
@@ -48,7 +49,7 @@ class Mot < ActiveRecord::Base
     Mot.all.order(:mot_directeur).each do |v|
       IO.write(liste,\
         "["+v.category_id.to_s+",\""+v.mot_directeur.to_str+"\",\""+v.francais+"\","+\
-        v.scores_mots.where(user_id: user_id).first.compteur.to_s+",\""+v.anglais+"\"],\n",liste.size)
+        v.scores_mots.where(user_id: user_id).first.compteur.to_s+",\""+v.anglais+",\""+v.prononciation,"],\n",liste.size)
     end
     IO.write(liste,"]\n",liste.size-2)
     true
@@ -57,7 +58,7 @@ class Mot < ActiveRecord::Base
   def self.api_v1
     liste = []
     Mot.order(:category_id, :mot_directeur, :francais).each do |mot|
-      liste << [mot.category.numero, mot.francais, mot.mot_directeur, mot.anglais]
+      liste << [mot.category.numero, mot.francais, mot.mot_directeur, mot.anglais, mot.prononciation]
     end
     liste
   end

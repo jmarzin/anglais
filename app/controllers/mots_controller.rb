@@ -128,7 +128,7 @@ class MotsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def mot_params
-      params.require(:mot).permit(:mot_directeur, :francais, :anglais, :category_id, :niveau,\
+      params.require(:mot).permit(:mot_directeur, :francais, :anglais, :prononciation, :category_id, :niveau,\
         scores_mots_attributes: [:compteur,:user_id])
     end
 end
