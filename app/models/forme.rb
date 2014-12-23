@@ -28,4 +28,13 @@ class Forme < ActiveRecord::Base
     end
     liste
   end
+
+  def self.api_v2
+    liste = []
+    Forme.order(:verbe_id, :rang_forme).each do |forme|
+      liste << [forme.id, forme.verbe_id, forme.rang_forme + 1, forme.anglais]
+    end
+    liste
+  end
+
 end
